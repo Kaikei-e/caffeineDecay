@@ -5,5 +5,3 @@ export const caffeineAtom = atom<caffeineInfo>({
     caffeineAmount: 0,
     consumedDateTime: new Date()
 });
-
-
