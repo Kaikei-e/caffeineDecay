@@ -1,4 +1,4 @@
-export interface caffeineInfo {
-    caffeineAmount: number;
-    consumedDateTime: Date;
-}
+export type caffeineInfo = {
+  caffeineAmount: number;
+  consumedDateTime: string;
+};
